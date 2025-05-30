@@ -1,0 +1,66 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+[data-theme="dark"] .features {
+  background-color: #1e2125;
+}
+
+.featureSvg {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 1.5rem;
+  fill: #27ae60;
+}
+
+[data-theme="dark"] .featureSvg {
+  fill: #25c2a0;
+}
+
+.featureIconPlaceholder {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 1.5rem;
+  background-color: #e9ecef;
+  border-radius: 50%;
+  position: relative;
+}
+
+[data-theme="dark"] .featureIconPlaceholder {
+  background-color: #2d333b;
+}
+
+.featureIconPlaceholder::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #27ae60 0%, #1abc9c 100%);
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+[data-theme="dark"] .featureIconPlaceholder::after {
+  background: linear-gradient(135deg, #1e8449 0%, #16a085 100%);
+  opacity: 0.6;
+}
+
+/* Additional text styling for dark mode */
+[data-theme="dark"] .features h2 {
+  color: #fff;
+}
+
+[data-theme="dark"] .features h3 {
+  color: #fff;
+}
+
+[data-theme="dark"] .features p {
+  color: #b0b0b0;
+}
