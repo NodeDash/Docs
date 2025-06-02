@@ -8,11 +8,11 @@ Integrations allow you to connect your IoT device data from the Helium network t
 
 ## What Are Integrations?
 
-Integrations in Helium Device Manager are connections to external services that can receive data from your devices. They act as destinations in your data flows, allowing device data to be sent to cloud platforms, databases, visualization tools, or any custom system.
+Integrations in NodeDash are connections to external services that can receive data from your devices. They act as destinations in your data flows, allowing device data to be sent to cloud platforms, databases, visualization tools, or any custom system.
 
 ## Types of Integrations
 
-Helium Device Manager supports two primary types of integrations:
+NodeDash supports two primary types of integrations:
 
 ### HTTP Integrations
 

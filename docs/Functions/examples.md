@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Function Examples
 
-This page provides practical examples of functions you can use or adapt in your Helium Device Manager flows. Each example includes the function code, explanation of how it works, and guidance on when to use it.
+This page provides practical examples of functions you can use or adapt in your NodeDash flows. Each example includes the function code, explanation of how it works, and guidance on when to use it.
 
 ## Basic Data Transformation Functions
 
@@ -335,7 +335,7 @@ async function process(input) {
 
   try {
     // Make API call to weather service
-    // Note: This is a placeholder. In Helium Device Manager,
+    // Note: This is a placeholder. In NodeDash,
     // you'd need to implement this using the platform's
     // API calling capabilities or built-in integrations
     const weatherUrl =
@@ -392,7 +392,7 @@ This function stores and aggregates data from multiple devices, outputting combi
 
 ```javascript
 // Global variable to store device data across executions
-// Note: In Helium Device Manager, you'd typically use the platform's state management
+// Note: In NodeDash, you'd typically use the platform's state management
 // capabilities instead of global variables
 const deviceReadings = {};
 

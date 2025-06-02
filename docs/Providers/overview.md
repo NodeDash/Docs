@@ -4,30 +4,30 @@ sidebar_position: 1
 
 # Providers Overview
 
-Providers in Helium Device Manager enable you to connect to external services and systems, extending the platform's capabilities with additional functionality.
+Providers in NodeDash enable you to connect to external services and systems, extending the platform's capabilities with additional functionality.
 
 ## What Are Providers?
 
-Providers serve as connectors to external services and systems that enhance the Helium Device Manager. Unlike Integrations, which focus on data output destinations, Providers bring new capabilities and services into the platform itself. They act as extensions that add functionality to your device management system.
+Providers serve as connectors to external services and systems that enhance the NodeDash. Unlike Integrations, which focus on data output destinations, Providers bring new capabilities and services into the platform itself. They act as extensions that add functionality to your device management system.
 
 ## Current Provider Types
 
 ### ChirpStack Provider
 
-The ChirpStack Provider establishes a connection between Helium Device Manager and a ChirpStack LoRaWAN Network Server (LNS):
+The ChirpStack Provider establishes a connection between NodeDash and a ChirpStack LoRaWAN Network Server (LNS):
 
 - **Complete Setup**: Automatically configures the connection to your ChirpStack instance
 - **Application Creation**: Creates a dedicated application in ChirpStack for managing your devices
 - **Device Profile Configuration**: Automatically adds standard device profiles for each region (US915, EU868, etc.)
-- **HTTP Integration**: Sets up an HTTP integration that routes all device data to Helium Device Manager
-- **Real-time Data Flow**: Ensures seamless data exchange between ChirpStack and Helium Device Manager
+- **HTTP Integration**: Sets up an HTTP integration that routes all device data to NodeDash
+- **Real-time Data Flow**: Ensures seamless data exchange between ChirpStack and NodeDash
 - **API Integration**: Uses ChirpStack's API for management operations
 - **Secure Connectivity**: Supports TLS encryption for secure communications
 - **Multi-tenant Support**: Works with ChirpStack's multi-tenant architecture
 
 ## Upcoming Provider Types
 
-The Helium Device Manager team is working on expanding the available providers to include:
+The NodeDash team is working on expanding the available providers to include:
 
 ### Storage Providers
 
@@ -53,7 +53,7 @@ Key elements on this screen include:
 
 ## Setting Up a ChirpStack Provider
 
-To connect Helium Device Manager to a ChirpStack instance:
+To connect NodeDash to a ChirpStack instance:
 
 1. Navigate to **Providers** and click **Add Provider**
 2. Enter a unique **Name** for your ChirpStack provider
@@ -70,7 +70,7 @@ To connect Helium Device Manager to a ChirpStack instance:
 
 ## Benefits of the Provider Architecture
 
-The provider-based architecture of Helium Device Manager offers several advantages:
+The provider-based architecture of NodeDash offers several advantages:
 
 - **Modularity**: Add only the services you need
 - **Flexibility**: Choose the external systems that work best for your use case

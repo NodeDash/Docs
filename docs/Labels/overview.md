@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Labels Overview
 
-Labels in Helium Device Manager provide a powerful way to organize and group your IoT devices for easier management and more flexible data routing.
+Labels in NodeDash provide a powerful way to organize and group your IoT devices for easier management and more flexible data routing.
 
 ## What Are Labels?
 

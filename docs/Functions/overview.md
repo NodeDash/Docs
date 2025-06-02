@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Functions Overview
 
-Functions in Helium Device Manager allow you to create custom JavaScript code to transform, filter, and enrich device data as it flows through your system.
+Functions in NodeDash allow you to create custom JavaScript code to transform, filter, and enrich device data as it flows through your system.
 
 ## What Are Functions?
 
@@ -20,7 +20,7 @@ Functions are reusable code blocks that process data from your IoT devices befor
 
 ## Function Structure
 
-Each function in Helium Device Manager follows a standard structure:
+Each function in NodeDash follows a standard structure:
 
 ```javascript
 /**

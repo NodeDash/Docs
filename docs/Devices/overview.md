@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Devices Overview
 
-Devices are the foundation of your IoT ecosystem in Helium Device Manager, representing the physical hardware that collects and transmits data from the field.
+Devices are the foundation of your IoT ecosystem in NodeDash, representing the physical hardware that collects and transmits data from the field.
 
 ## What Are Devices?
 
-Devices in Helium Device Manager represent physical IoT hardware connected to the Helium Network through ChirpStack. Each device has a unique identifier (DevEUI) and can send data (uplink) and receive commands (downlink).
+Devices in NodeDash represent physical IoT hardware connected to the Helium Network through ChirpStack. Each device has a unique identifier (DevEUI) and can send data (uplink) and receive commands (downlink).
 
 ## Device Dashboard
 
@@ -74,7 +74,7 @@ The Downlink tab provides tools to send commands to the device:
 
 ## Adding a New Device
 
-To add a new device to Helium Device Manager:
+To add a new device to NodeDash:
 
 1. Click the **Add Device** button on the Devices page
 2. Enter the required device information:
@@ -90,7 +90,7 @@ To add a new device to Helium Device Manager:
 
 ## Device Status Monitoring
 
-Helium Device Manager automatically monitors device status based on communication patterns:
+NodeDash automatically monitors device status based on communication patterns:
 
 - **Online**: Device has communicated within its expected transmission window
 - **Offline**: Device has not communicated for longer than its expected window
@@ -103,8 +103,8 @@ The system can alert you when devices go offline or fail to communicate on sched
 When a device sends data, the following happens:
 
 1. The physical device transmits data through the Helium Network
-2. ChirpStack receives this data and forwards it to Helium Device Manager
-3. Helium Device Manager records the data in the device history
+2. ChirpStack receives this data and forwards it to NodeDash
+3. NodeDash records the data in the device history
 4. Any flows that include this device as a source are triggered
 5. The data can be viewed in the Device Details page
 

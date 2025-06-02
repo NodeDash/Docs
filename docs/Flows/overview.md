@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Flows Overview
 
-Flows are at the heart of Helium Device Manager, providing a visual, flow-based interface for routing data between devices, functions, and integrations.
+Flows are at the heart of NodeDash, providing a visual, flow-based interface for routing data between devices, functions, and integrations.
 
 ## What Are Flows?
 
-Flows in Helium Device Manager are visual representations of how data should move through your IoT system. They define the path from data source (devices) through processing steps (functions) to destinations (integrations).
+Flows in NodeDash are visual representations of how data should move through your IoT system. They define the path from data source (devices) through processing steps (functions) to destinations (integrations).
 
 Using the intuitive drag-and-drop flow editor, you can create sophisticated data routing rules without writing code (except for custom functions when needed).
 
@@ -38,7 +38,7 @@ Destinations receive the processed data:
 
 ## Flows Dashboard
 
-The Flows dashboard is the central hub for managing all your flows in Helium Device Manager:
+The Flows dashboard is the central hub for managing all your flows in NodeDash:
 
 ### All Flows View
 
@@ -111,7 +111,7 @@ To create a basic flow:
 When a flow is triggered:
 
 1. A device sends data to the Helium Network
-2. ChirpStack forwards this data to the Helium Device Manager
+2. ChirpStack forwards this data to the NodeDash
 3. The system identifies which flows include the source device
 4. Data flows through the connected nodes following the defined paths
 5. Functions process and transform the data
@@ -179,7 +179,7 @@ The Flows page provides a comprehensive interface for managing all your flows:
 
 ## Flow Monitoring
 
-The Helium Device Manager provides comprehensive tools to monitor your flows:
+The NodeDash provides comprehensive tools to monitor your flows:
 
 - **Flow History**: View a detailed execution log table with the following information:
   - **Timestamp**: When the flow execution occurred

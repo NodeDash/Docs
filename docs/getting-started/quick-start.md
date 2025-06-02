@@ -4,15 +4,15 @@ sidebar_position: 1
 
 # Quick Start Guide
 
-This guide will help you quickly get up and running with Helium Device Manager. Follow these steps to set up your first device, function, integration, and flow.
+This guide will help you quickly get up and running with NodeDash. Follow these steps to set up your first device, function, integration, and flow.
 
 ## 1. Initial Setup
 
-After accessing Helium Device Manager (either via [heliumdevicemanager.com](https://heliumdevicemanager.com) or your self-hosted installation), there are a few initial setup steps to complete:
+After accessing NodeDash (either via [heliumdevicemanager.com](https://heliumdevicemanager.com) or your self-hosted installation), there are a few initial setup steps to complete:
 
 ### First Login
 
-1. Open your browser and navigate to your Helium Device Manager URL:
+1. Open your browser and navigate to your NodeDash URL:
    - For cloud users: [heliumdevicemanager.com](https://heliumdevicemanager.com)
    - For self-hosted: Your configured URL (default: `http://localhost:3000`)
 2. On first launch, you'll be prompted to create an administrator account
@@ -24,7 +24,7 @@ After accessing Helium Device Manager (either via [heliumdevicemanager.com](http
 
 ### Add ChirpStack Provider
 
-Before you can manage devices, you need to connect Helium Device Manager to your ChirpStack instance using a Provider:
+Before you can manage devices, you need to connect NodeDash to your ChirpStack instance using a Provider:
 
 1. Navigate to **Providers** in the left sidebar
 2. Click **Add Provider**
@@ -45,7 +45,7 @@ Once connected, the provider will automatically:
 
 - Create a dedicated application in ChirpStack
 - Add standard device profiles for each region (US915, EU868, etc.)
-- Set up an HTTP integration to route device data to Helium Device Manager
+- Set up an HTTP integration to route device data to NodeDash
 
 ## 2. Create Organization Labels
 
@@ -62,7 +62,7 @@ Let's set up a basic organizational structure with labels:
 
 ## 3. Register Your First Device
 
-Now, let's add a device to Helium Device Manager:
+Now, let's add a device to NodeDash:
 
 1. Go to the **Devices** section in the main navigation
 2. Click **Add Device**
@@ -199,7 +199,7 @@ To monitor your device:
 
 ## Next Steps
 
-Congratulations! You've successfully set up your first device, function, integration, and flow in Helium Device Manager. Here are some next steps to explore:
+Congratulations! You've successfully set up your first device, function, integration, and flow in NodeDash. Here are some next steps to explore:
 
 - Add more devices and organize them with additional labels
 - Create more sophisticated functions for data processing

@@ -2,15 +2,15 @@
 sidebar_position: 1
 ---
 
-# Introduction to Helium Device Manager
+# Introduction to NodeDash
 
-Welcome to the **Helium Device Manager** documentation! This guide will help you understand and make the most of this powerful, flow-based IoT device management platform.
+Welcome to the **NodeDash** documentation! This guide will help you understand and make the most of this powerful, flow-based IoT device management platform.
 
-## What is Helium Device Manager?
+## What is NodeDash?
 
-Helium Device Manager is a modern, flow-based device management layer that sits on top of ChirpStack to provide an easier option to manage IoT devices connected to the Helium Network. It features a visual, intuitive interface for routing data between devices, functions, and integrations.
+NodeDash is a modern, flow-based device management layer that sits on top of ChirpStack to provide an easier option to manage IoT devices connected to the Helium Network. It features a visual, intuitive interface for routing data between devices, functions, and integrations.
 
-You can access Helium Device Manager in multiple ways:
+You can access NodeDash in multiple ways:
 
 - **Cloud-hosted Solution**: Use our fully-managed service at [heliumdevicemanager.com](https://heliumdevicemanager.com)
 - **Self-hosted Deployment**: Install and maintain your own instance using Docker, Node.js, or Kubernetes
@@ -29,9 +29,9 @@ You can access Helium Device Manager in multiple ways:
 
 ## System Architecture
 
-Helium Device Manager orchestrates data flow from IoT devices to business applications:
+NodeDash orchestrates data flow from IoT devices to business applications:
 
-![Helium Device Manager Architecture](/img/device-manager-flow.png)
+![NodeDash Architecture](/img/device-manager-flow.png)
 
 ## Core Components
 
@@ -41,7 +41,7 @@ Helium Device Manager orchestrates data flow from IoT devices to business applic
 
 ### Devices
 
-[Devices](/docs/Devices/overview) represent your physical IoT hardware connected to the Helium Network. Helium Device Manager helps you monitor their status, manage their configuration, and route their data.
+[Devices](/docs/Devices/overview) represent your physical IoT hardware connected to the Helium Network. NodeDash helps you monitor their status, manage their configuration, and route their data.
 
 ### Labels
 
@@ -53,7 +53,7 @@ Helium Device Manager orchestrates data flow from IoT devices to business applic
 
 ### Integrations
 
-[Integrations](/docs/Integrations/overview) connect your device data to external systems and services. Helium Device Manager supports HTTP and MQTT integrations to work with virtually any external platform.
+[Integrations](/docs/Integrations/overview) connect your device data to external systems and services. NodeDash supports HTTP and MQTT integrations to work with virtually any external platform.
 
 ### Providers
 
@@ -61,9 +61,9 @@ Helium Device Manager orchestrates data flow from IoT devices to business applic
 
 ## Getting Started
 
-New to Helium Device Manager? Here's how to get started:
+New to NodeDash? Here's how to get started:
 
-1. **Installation**: First, [install Helium Device Manager](/docs/getting-started/installation) in your environment
+1. **Installation**: First, [install NodeDash](/docs/getting-started/installation) in your environment
 2. **Quick Start**: Follow our [quick start guide](/docs/getting-started/quick-start) to set up your first device and flow
 3. **Explore**: Dive deeper into specific components based on your needs:
    - Learn how to [manage devices](/docs/devices/overview)
@@ -73,7 +73,7 @@ New to Helium Device Manager? Here's how to get started:
 
 ## Use Cases
 
-Helium Device Manager supports a wide range of IoT use cases:
+NodeDash supports a wide range of IoT use cases:
 
 - **Environmental Monitoring**: Track temperature, humidity, air quality data
 - **Asset Tracking**: Monitor location and status of valuable assets
@@ -85,7 +85,7 @@ Helium Device Manager supports a wide range of IoT use cases:
 
 ## Community and Support
 
-- Visit our [GitHub repository](https://github.com/helium/helium-device-manager) for the latest updates
+- Visit our [GitHub repository](https://github.com/NodeDash) for the latest updates
 - Join the [Helium Discord](https://discord.gg/helium) to connect with the community
 
 Ready to get started? Head to the [Installation Guide](/getting-started/installation)!

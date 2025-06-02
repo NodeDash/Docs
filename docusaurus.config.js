@@ -10,12 +10,12 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Helium Device Manager",
+  title: "NodeDash",
   tagline: "Modern, flow-based device management for the Helium Network",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://helium-device-manager.io",
+  url: "https://docs.nodedash.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -47,8 +47,7 @@ const config = {
           routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/helium/helium-device-manager-docs/tree/main/",
+          editUrl: "https://github.com/NodeDash/Docs/tree/main/",
         },
 
         theme: {
@@ -79,9 +78,9 @@ const config = {
       // Replace with your project's social card
       image: "img/helium-device-manager-social-card.jpg",
       navbar: {
-        title: "Helium Device Manager",
+        title: "NodeDash",
         logo: {
-          alt: "Helium Device Manager Logo",
+          alt: "NodeDash Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -93,7 +92,7 @@ const config = {
           },
 
           {
-            href: "https://github.com/helium/helium-device-manager",
+            href: "https://github.com/NodeDash",
             label: "GitHub",
             position: "right",
           },
@@ -145,12 +144,12 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/helium/helium-device-manager",
+                href: "https://github.com/NodeDash",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Helium Device Manager. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NodeDash. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
