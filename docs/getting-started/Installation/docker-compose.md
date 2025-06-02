@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # Docker Compose
 
-Device Manager can be installed using Docker Compose for a simple all in one deployment which is suitable for
+NodeDash can be installed using Docker Compose for a simple all in one deployment which is suitable for
 development and evaluation purposes and also small production deployments where high availability or autoscaling
 is not a requirement.
 
 ## System Requirements
 
-Before installing Device Manager, ensure your Docker host meets these requirements:
+Before installing NodeDash, ensure your Docker host meets these requirements:
 
 ### Minimum Requirements
 - **CPU**: 2 cores
@@ -26,7 +26,7 @@ Before installing Device Manager, ensure your Docker host meets these requiremen
 - **Storage**: 50+ GB (SSD preferred)
 
 ## Components
-Device Manager Docker Compose files will configure the following components;
+NodeDash Docker Compose files will configure the following components;
 - **Volumes**:
   - **postgres_data**: Stores PostgreSQL database content
   - **valkey_data**: ValKey data store
@@ -34,25 +34,25 @@ Device Manager Docker Compose files will configure the following components;
   - **Postgres**: Runs PostgreSQL database
   - **Valkey**: Runs ValKey datastore
   - **Migrations**: Runs once at start to perform database migrations
-  - **UX**: Serves Device Manager User Interface on Port 8080
-  - **API**: Serves Device Manager API on Port 8081
-  - **Ingest**: Service Device Manager Ingest Service on Port 8082
-  - **Service**: Runs Device Manager backend processing service
+  - **UX**: Serves NodeDash User Interface on Port 8080
+  - **API**: Serves NodeDash API on Port 8081
+  - **Ingest**: Service NodeDash Ingest Service on Port 8082
+  - **Service**: Runs NodeDash backend processing service
 
 ## Installation
 
 ### Checkout Docker Compose File
-The latest Docker Compose file for Device Manager can be found at the following URL;
+The latest Docker Compose file for NodeDash can be found at the following URL;
 
-```https://raw.githubusercontent.com/trackpac-ltd/device-manager-docker-compose/refs/heads/main/docker-compose.yml```
+```https://raw.githubusercontent.com/NodeDash/Docker-Compose/refs/heads/main/docker-compose.yaml```
 
-If you require a specific release of Device Manager use the following URL substituing \<VERSION\> with
-the version of Device Manager you desire;
+If you require a specific release of NodeDash use the following URL substituing \<VERSION\> with
+the version of NodeDash you desire;
 
-```https://raw.githubusercontent.com/trackpac-ltd/device-manager-docker-compose/refs/tags/<VERSION>/docker-compose.yml```
+```https://raw.githubusercontent.com/NodeDash/Docker-Compose/refs/tags/<VERSION>/docker-compose.yaml```
 
 ### Edit Configuration Variables
-You may wish to customize your Device Manager installation prior to starting, this can be achieved by editing the
+You may wish to customize your NodeDash installation prior to starting, this can be achieved by editing the
 following variables within the docker-compose.yaml file.
 
    - `CHIRPSTACK_API_URL`: Point to your ChirpStack instance
@@ -136,7 +136,7 @@ The new version will come up and run database migrations upon your existing data
 starting the new version of the application.
 
 ## Remove Installation
-If you wish to remove Device Manager from your Docker host the easiest method is via Docker Compose.
+If you wish to remove NodeDash from your Docker host the easiest method is via Docker Compose.
 Run the following command to tear down the containers.
 
 ```bash
